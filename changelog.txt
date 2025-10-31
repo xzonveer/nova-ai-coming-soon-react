@@ -1,0 +1,10 @@
+v1.0.0 - Oct 30, 2025
+- Initial release
+- React 18, Tailwind CSS integration
+- Particles animation & countdown
+- Email form with EmailJS stub
+- Fully responsive design
+
+v1.0.1 - Future Update
+- Add dark mode toggle
+- More feature cards
