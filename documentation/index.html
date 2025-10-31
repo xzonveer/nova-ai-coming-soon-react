@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nova AI Documentation</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 20px; }
+    h1, h2 { color: #6366f1; }
+    code { background: #f3f4f6; padding: 2px 4px; border-radius: 4px; }
+    pre { background: #1f2937; color: #f9fafb; padding: 16px; border-radius: 8px; overflow-x: auto; }
+    ul { list-style-type: disc; padding-left: 20px; }
+    img { max-width: 100%; height: auto; }
+  </style>
+</head>
+<body>
+  <h1>Nova AI - Coming Soon React Template</h1>
+  <p><strong>Version:</strong> 1.0.0 | <strong>Author:</strong> Your Name | <strong>Released:</strong> Oct 2025</p>
+
+  <h2>Overview</h2>
+  <p>A futuristic, responsive React landing page for AI agencies. Features particles animation, countdown timer, email signup, and feature teasers. Built with React 18, Tailwind CSS.</p>
+
+  <h2>Requirements</h2>
+  <ul>
+    <li>Node.js 14+</li>
+    <li>npm 6+</li>
+  </ul>
+
+  <h2>Installation</h2>
+  <ol>
+    <li>Extract <code>source/nova-ai-coming-soon</code>.</li>
+    <li>Run <code>npm install</code>.</li>
+    <li>Run <code>npm start</code> (dev server: http://localhost:3000).</li>
+    <li>For production: <code>npm run build</code> → Serve <code>build/</code> folder.</li>
+  </ol>
+
+  <h2>Customization</h2>
+  <h3>Agency Name & Text</h3>
+  <p>Edit <code>src/App.js</code>: Change <code>&lt;h1&gt;Nova AI&lt;/h1&gt;</code> and hero <code>&lt;p&gt;</code>.</p>
+
+  <h3>Launch Date</h3>
+  <p>In <code>src/components/Countdown.js</code>: Update <code>new Date('2025-12-01T00:00:00')</code>.</p>
+
+  <h3>Features</h3>
+  <p>Modify array in <code>src/components/Features.js</code>.</p>
+
+  <h3>Email Integration</h3>
+  <p>In <code>src/components/SignupForm.js</code>: Add EmailJS (npm install emailjs-com). Replace console.log with <code>emailjs.sendForm</code>. Get keys from emailjs.com.</p>
+
+  <h3>Colors/Styles</h3>
+  <p>Edit <code>src/index.css</code> for gradients/shadows. Tailwind config in <code>tailwind.config.js</code>.</p>
+
+  <h2>Demo Screenshots</h2>
+  <img src="assets/screenshot-hero.png" alt="Hero Section">
+  <img src="assets/screenshot-features.png" alt="Features">
+
+  <h2>Changelog</h2>
+  <p>See <code>changelog.txt</code>.</p>
+
+  <h2>Support</h2>
+  <p>Email: support@yourdomain.com | Updates: Check CodeCanyon item page.</p>
+
+  <h2>License</h2>
+  <p>Envato Regular License: Use in one end product. See full terms in license.txt.</p>
+</body>
+</html>
